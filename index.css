@@ -24,7 +24,7 @@ footer{
   width: 50vw;
   height: 30vh;
   position: fixed;
-  bottom: 2em;
+  bottom: 1em;
   left: 2.5em;
   border: 0.09em solid black;
 }
@@ -39,12 +39,14 @@ div{
   justify-content: center;
   align-items: center;
   user-select: none;
+  font-size: 1em;
 }
 
 div:active{
   color: red;
   font-weight: bolder;
-  font-size: 100%;
+  font-size: 1.5em;
+  background-color: blue;
 }
 
 #buttonTopLeft{
