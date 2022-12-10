@@ -28,15 +28,28 @@ var blockY = canvas.height / 2 - 25;
 function updateBlock(){
   if(movLeft){
     posX = posX - 1;
+    if(posX + canvas.width < canvas.width){
+      posX = posX + 1
+    }
+    
   }
   if(movRigth){
     posX = posX + 1;
+    if(posX + sizeWidth > canvas.width){
+     posX = posX - 1
+    }
   }
   if(movBottom){
     posY = posY + 0.35;
+    if(posY + sizeHeight > canvas.height){
+      posY = posY - 0.35
+    }
   }
   if(movTop){
     posY = posY - 0.35;
+  }
+  if(posY + canvas.height < canvas.height){
+    posY = posY + 0.35;
   }
 }
 
