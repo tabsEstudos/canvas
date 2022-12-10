@@ -1,0 +1,114 @@
+body{
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: radial-gradient(blue, skyblue);
+}
+
+#game{
+  width: 300px;
+  height: 550px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.centralize{
+  display: flex;
+  justify-content: center;
+}
+
+.divCanvas{
+  height: 100%;
+  width: 100%;
+}
+
+footer{
+  width: 12em;
+  height: 12em;
+  position: fixed;
+  bottom: 2em;
+  left: 2.5em;
+  border: 0.09em solid black;
+}
+
+div{
+  border: 0.09em solid black;
+  width: 4em;
+  height: 4em;
+  display: inline-block;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+div:active{
+  color: red;
+  font-weight: bolder;
+  font-size: 100%;
+}
+
+#buttonTopLeft{
+  top: 0;
+  left: 0;
+}
+
+#buttonTop{
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#buttonTopRight{
+  right: 0;
+  top: 0;
+}
+
+
+#buttonLeft{
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+#buttonCenter{
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+#buttonRight{
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+#buttonBottomLeft{
+  bottom: 0;
+  left: 0;
+}
+
+#buttonBottom{
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+
+
+#buttonBottom{
+  bottom: 0;
+}
+
+#buttonBottomRight{
+  bottom: 0;
+  right: 0;
+}
